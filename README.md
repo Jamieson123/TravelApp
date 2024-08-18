@@ -58,28 +58,9 @@ Copy code
 npm start
 This command will start the application on http://localhost:3000/.
 
-Project Structure
-Here's a brief overview of the project structure:
-
-plaintext
-Copy code
-src/
-├── components/
-│   ├── NavigationBar.js      # Bottom navigation bar
-│   ├── LocationCard.js       # Card component for locations
-│   ├── WeatherCard.js        # Card component for weather information
-│   ├── ...
-├── pages/
-│   ├── HomePage.js           # Home screen of the app
-│   ├── SearchPage.js         # Search screen for locations
-│   ├── DetailPage.js         # Detailed information screen
-│   ├── ProfilePage.js        # User profile screen
-│   └── ...
-├── App.js                    # Main application component
-├── theme.js                  # Custom Material-UI theme
-└── index.js                  # Entry point of the React application
 
 Usage
+
 Home Screen
 The Home Screen is the default landing page. It displays the current weather for the selected location, top activities, and featured locations.
 
@@ -97,6 +78,7 @@ Deployment
 For production, you can build the project by running:
 
 bash
+
 Copy code
 npm run build
 This will create an optimized production build in the build folder, which you can then deploy to your preferred hosting service (Netlify, Vercel, GitHub Pages, etc.).
