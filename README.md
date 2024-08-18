@@ -1,8 +1,11 @@
 Travel App
+
 Overview
+
 The Travel App is a React-based web application designed to help users discover new destinations. The app allows users to search for locations, view weather information, explore top things to do, and find nearby parking. The application features a modern and clean UI inspired by the Bike Rental Mobile App template from Uizard.
 
 Features
+
 Home Screen: Displays featured locations, weather updates, and top activities.
 Search Functionality: Allows users to search for locations and get filtered results.
 Detailed Information: Provides detailed information about selected locations or services.
@@ -15,7 +18,9 @@ Axios: Promise-based HTTP client for the browser to fetch data from APIs.
 OpenWeatherMap API: To fetch weather data.
 Material-UI Icons: For adding icons to the application.
 React Router: For navigation between different pages of the application.
+
 Prerequisites
+
 Before you begin, ensure you have the following installed:
 
 Node.js: v14.x or later
@@ -73,6 +78,7 @@ src/
 ├── App.js                    # Main application component
 ├── theme.js                  # Custom Material-UI theme
 └── index.js                  # Entry point of the React application
+
 Usage
 Home Screen
 The Home Screen is the default landing page. It displays the current weather for the selected location, top activities, and featured locations.
@@ -105,15 +111,19 @@ Check your API keys in the .env file and make sure they are correctly added.
 Clear the npm cache if you face persistent issues:
 
 bash
+
 Copy code
 npm cache clean --force
 Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+
 Acknowledgments
+
 Material-UI for providing a fantastic UI library.
 OpenWeatherMap for weather data.
 Uizard for the design inspiration.
